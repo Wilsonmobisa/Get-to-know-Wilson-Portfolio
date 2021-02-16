@@ -10,7 +10,6 @@
   border: 2px solid white;
   font-family: Raleway;
 }
-
 @media screen and (max-width: 768px) {
   #round1 {
     width: 60%;
@@ -37,6 +36,22 @@
   }
 }
 
+@media screen and (max-width: 350px) {
+  #round1 {
+    width: 70%;
+    height: 6vh;
+    left: 5%;
+    border-radius: 10px;
+    top: 0vh;
+    border: none;
+  }
+}
+@media screen and (max-width: 250px) {
+  #round1 {
+    left: -1%;
+  }
+}
+
 #wilsonhead {
   position: absolute;
   bottom: 0.3vh;
@@ -57,7 +72,7 @@
 }
 @media screen and (max-width: 375px) {
   #wilsonhead {
-    bottom: -2.4vh;
+    bottom: -3vh;
     margin-left: 0.5%;
     font-size: x-large;
   }
@@ -65,7 +80,7 @@
 @media screen and (max-width: 320px) {
   #wilsonhead {
     font-size: large;
-    bottom: -4.4vh;
+    bottom: -3vh;
     margin-left: 0.5%;
   }
 }
@@ -83,11 +98,6 @@
   border: 2px solid white;
   width: fit-content;
   text-align: center;
-}
-#myskill:hover {
-  background-color: rgb(226, 176, 9);
-  color: #000;
-  transition: 0.6s;
 }
 
 @media screen and (max-width: 768px) {
@@ -109,16 +119,26 @@
   #myskill {
     line-height: 3vh;
     font-size: 10px;
-    top: 10vh;
+    top: 9vh;
     left: 23%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   #myskill {
     line-height: 3vh;
     font-size: 7px;
     top: 10vh;
     left: 27%;
+    border-radius: 13px;
+  }
+}
+}
+@media screen and (max-width: 290px) {
+  #myskill {
+    line-height: 3vh;
+    font-size: 7px;
+    top: 10vh;
+    left: 30%;
     border-radius: 13px;
   }
 }
@@ -136,11 +156,6 @@
   padding: 10px;
   border-radius: 20px;
   border: 2px solid white;
-}
-#myskill2:hover {
-  background-color: rgb(226, 176, 9);
-  color: #000;
-  transition: 0.6s;
 }
 @media screen and (max-width: 768px) {
   #myskill2 {
@@ -169,7 +184,7 @@
     left: 22%;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   #myskill2 {
     line-height: 3vh;
     font-size: 7px;
@@ -196,7 +211,6 @@
   font-size: 25px;
   border: 2px solid white;
 }
-
 @media screen and (max-width: 768px) {
   #tech {
     padding: 0;
@@ -251,11 +265,6 @@
   font-size: 25px;
   border: 1px solid white;
 }
-#code1:hover {
-  background-color: rgb(226, 176, 9);
-  color: #000;
-  transition: 0.6s;
-}
 
 #code2 {
   width: 20%;
@@ -271,11 +280,6 @@
   border-radius: 10px;
   font-size: 25px;
   border: 1px solid white;
-}
-#code2:hover {
-  background-color: rgb(226, 176, 9);
-  color: #000;
-  transition: 0.6s;
 }
 
 #code3 {
@@ -293,11 +297,6 @@
   font-size: 25px;
   border: 1px solid white;
 }
-#code3:hover {
-  background-color: rgb(226, 176, 9);
-  color: #000;
-  transition: 0.6s;
-}
 
 #code4 {
   width: 20%;
@@ -313,11 +312,6 @@
   border-radius: 10px;
   font-size: 25px;
   border: 1px solid white;
-}
-#code4:hover {
-  background-color: rgb(226, 176, 9);
-  color: #000;
-  transition: 0.6s;
 }
 
 #code5 {
@@ -335,12 +329,6 @@
   font-size: 25px;
   border: 1px solid white;
 }
-#code5:hover {
-  background-color: rgb(226, 176, 9);
-  color: #000;
-  transition: 0.6s;
-}
-
 #code6 {
   width: 20%;
   font-family: Raleway;
@@ -355,11 +343,6 @@
   border-radius: 10px;
   font-size: 25px;
   border: 1px solid white;
-}
-#code6:hover {
-  background-color: rgb(226, 176, 9);
-  color: #000;
-  transition: 0.6s;
 }
 
 #code7 {
@@ -377,12 +360,6 @@
   font-size: 25px;
   border: 1px solid white;
 }
-#code7:hover {
-  background-color: rgb(226, 176, 9);
-  color: #000;
-  transition: 0.6s;
-}
-
 #code8 {
   width: 20%;
   font-family: Raleway;
@@ -398,12 +375,6 @@
   font-size: 25px;
   border: 1px solid white;
 }
-#code8:hover {
-  background-color: rgb(226, 176, 9);
-  color: #000;
-  transition: 0.6s;
-}
-
 #code9 {
   width: 20%;
   font-family: Raleway;
@@ -418,11 +389,6 @@
   border-radius: 10px;
   font-size: 25px;
   border: 1px solid white;
-}
-#code9:hover {
-  background-color: rgb(226, 176, 9);
-  color: #000;
-  transition: 0.6s;
 }
 
 @media screen and (max-width: 768px) {
@@ -571,19 +537,31 @@
   top: 3vh;
   cursor: pointer;
   transition: all 0.5s ease-out;
+  height: 4.1vh;
 }
 @media screen and (max-width: 600px) {
   .menu-btn {
     right: 10%;
   }
 }
+@media screen and (max-width: 320px) {
+  .menu-btn {
+    right: 10%;
+    padding: 0.5px;
+  }
+}
 
 .menu-btn .btn-line {
   width: 28px;
   height: 3px;
-  margin: 0 0 5px 0;
+  margin: 0 0 3px 0;
   background: rgb(12, 12, 12);
   transition: all 0.5s ease-out;
+}
+@media screen and (max-width: 320px) {
+  .btn-line {
+    margin-top: 0;
+  }
 }
 .menu-btn.close {
   transform: rotate(180deg);
